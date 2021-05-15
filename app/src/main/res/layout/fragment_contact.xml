@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="271dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_tiles" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="96dp"
+            android:layout_height="67dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="C O N T A C T  U S"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:padding="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="N A M E"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Name"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:id="@+id/edtName"
+                android:layout_marginBottom="15dp"
+                android:textSize="13dp"
+                android:textColorHint="#8A8D99 "
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="S C H O O L  N A M E"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your School Name"
+                android:padding="10dp"
+                android:id="@+id/edt_SchoolName"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:textSize="13dp"
+                android:textColorHint="#8A8D99 "
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Y O U R  E M A I L"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Email"
+                android:padding="10dp"
+                android:id="@+id/edt_Mail"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:textSize="13dp"
+                android:textColorHint="#8A8D99 "
+                android:background="@color/white"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="C O N T A C T  N U M B E R"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"/>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <com.hbb20.CountryCodePicker
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    app:ccp_textSize="16sp"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_showPhoneCode="true"
+                    app:ccp_showNameCode="false"
+                    android:id="@+id/ccp"/>
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:maxLength="15"
+                    android:padding="10dp"
+                    android:inputType="phone"
+                    android:background="@color/white"
+                    android:hint="Enter Contact Number"
+                    android:textColorHint="#8A8D99"/>
+
+            </LinearLayout>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="M E S S A G E"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="Explain Your Issue\n\nAfter clicking on 'SUBMIT',\nchoose GMAIL as your host."
+                android:minLines="8"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#8A8D99"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/submit"
+                    android:text="SUBMIT"
+                    android:background="@drawable/icon_tiles"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/bold"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/clear"
+                    android:text="CLEAR"
+                    android:background="@drawable/icon_tiles"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/bold"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

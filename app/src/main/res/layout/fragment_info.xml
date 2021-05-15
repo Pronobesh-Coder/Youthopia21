@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="271dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_tiles" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="96dp"
+            android:layout_height="67dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="I N F O"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="THE HERITAGE SCHOOL\n\n[ AN ISO 9001 : 2008 and 22000 : 2005 CERTIFIED INSTITUTION ] \n\n-\n\n994. MADURDAHA, CHOWBAGA RD, EAST
+        KOLKATA TOWNSHIP, KOLKATA - 700107\n\n-\n\nPHONE: +91-33 2243-0448 / 0499 / 0450 / 0451
+        \nFAX : +91-33 2243 0453\n\nEMAIL:\nyouthopia2021@theheritageschool.org\npresident.youthopia@theheritageschool.org\n\n-\n\nHELP DESK\n\nKoyena Pal:                        +91 82405 51946\n\nHriday Chhaochharia:     +91 90734 40670\n\nSuhani Chatterjee:           +91 98312 32342\n\nAnkur Akhaury:                 +91 99367 99502
+        \n\n-\n\nAbout the Developer:\n\nThe official Youthopia '21 App was \ndeveloped by Pronobesh Chatterjee of \nclass XII F, The Heritage School.\n\nEMAIL:\npronobesh.chatterjee@theheritageschool.net.in \n\nPronobesh Chatterjee\nFull Stack Developer (Tech Team)\n\n"/>
+
+    </ScrollView>
+
+</RelativeLayout>

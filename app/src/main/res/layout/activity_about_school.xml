@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutSchool">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETURN TO HOME"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/back"
+        android:fontFamily="@font/bold"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_above="@id/back"
+        android:background="@drawable/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="THE HERITAGE SCHOOL"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="The Heritage School was founded by the Kalyan Bharti Trust in 2001, with the unique aim of holistically developing every student. Today, it has created global individuals well-rounded in academics, sports, and extracurriculars."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/hdschool"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:padding="9dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="ATMA DEEPA BHAVA"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:text="Be Your Own Light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Our school has a living, breathing atmosphere of conceptual learning and teamwork. It truly believes in its motto Atma Deepo Bhava (Be your own light). Every part of the school reflects its students' versatile minds - from the student-made artwork on pillars, the active sports fields, the framed paintings on walls, and the music and dances which often reverberate through the campus. Our school values integrity and compassion as much as it values knowledge and intelligence, and imparts collective education of the mind, body and soul."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Recognized as the Best Co-Educational School in West Bengal by Education World for six years in a row, The Heritage School has successfully built youngsters with a passion to explore, seek answers, and change the world."/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutSchool">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETURN TO HOME"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/back"
+        android:fontFamily="@font/bold"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_above="@id/back"
+        android:background="@drawable/main_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="YOUTHOPIA"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="The biggest school fest in the city is now back for its 12tᵗʰ
+edition. With an amalgamation of the words youth and
+utopia, we present to you a plethora of events finishing with
+stage breaking performances. A stage that lets everyone
+shine, blooming with the vigour of youth, combusting
+anything in its way as the Phoenix rises again. The birth child
+of excellence and determination, twisted into one under the
+kindled glow of the burning flame, it is more than just a fest.
+"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_height="212dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/youth1" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="A fest teeming with huge multitudes of energy as the footfall
+skyrockets, we promise you that it is an experience that you
+will never forget. Alight with the amber colours of youth, it
+teaches us that if harnessed properly, we are a formidable
+force capable of shaping our own destiny. As we adorn the
+epitome of euphoria, we present to you, Youthopia 2021."/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
