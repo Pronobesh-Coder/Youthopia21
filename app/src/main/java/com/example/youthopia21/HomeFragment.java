@@ -5,17 +5,31 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
+
 
 public class HomeFragment extends Fragment {
 
 
     private ConstraintLayout goToAboutSchool, goToAboutYouth;
+    private TextView donaDrive;
+
+    SliderView sliderView;
+    int[] images = {R.drawable.so1,
+    R.drawable.so2,
+    R.drawable.so3,
+    R.drawable.so4};
+
 
     @Nullable
     @Override
@@ -25,6 +39,9 @@ public class HomeFragment extends Fragment {
 
         goToAboutSchool = v.findViewById(R.id.school_click);
         goToAboutYouth = v.findViewById(R.id.youth_click);
+        sliderView = v.findViewById(R.id.imageSlider);
+        donaDrive = v.findViewById(R.id.don_click);
+
 
         goToAboutSchool.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +56,21 @@ public class HomeFragment extends Fragment {
                 startActivity(new Intent(getActivity(), AboutYouthopia.class));
             }
         });
+
+        SliderAdapter sliderAdapter = new SliderAdapter(images);
+        sliderView.setSliderAdapter(sliderAdapter);
+        sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+        sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
+        sliderView.startAutoCycle();
+
+
+        donaDrive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), DonationDrive.class));
+            }
+        });
+
         return v;
 
     }

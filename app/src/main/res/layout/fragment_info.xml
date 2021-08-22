@@ -23,7 +23,7 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/icon_tiles" />
+            app:srcCompat="@drawable/icon_tiles"/>
 
         <ImageView
             android:id="@+id/imageView3"
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/bold"
+            android:fontFamily="@font/mbold"
             android:text="I N F O"
             android:textColor="@color/white"
             android:textSize="16dp"

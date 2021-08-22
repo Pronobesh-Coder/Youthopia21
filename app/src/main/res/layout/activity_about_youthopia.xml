@@ -10,11 +10,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RETURN TO HOME"
+        android:text="BACK"
         android:textColor="@color/black"
         android:layout_alignParentBottom="true"
         android:id="@+id/back"
-        android:fontFamily="@font/bold"
+        android:fontFamily="@font/mbold"
         android:textStyle="bold"/>
 
     <ScrollView
@@ -49,15 +49,15 @@
                 android:padding="9dp"
                 android:gravity="center"
                 android:textColor="@color/white"
-                android:text="The biggest school fest in the city is now back for its 12ᵗʰ
-edition. With an amalgamation of the words youth and
-utopia, we present to you a plethora of events finishing with
-stage breaking performances. A stage that lets everyone
-shine, blooming with the vigour of youth, combusting
-anything in its way as the Phoenix rises again. The birth child
-of excellence and determination, twisted into one under the
-kindled glow of the burning flame, it is more than just a fest.
-"/>
+                android:text="The phoenix rises from its ashes again as The Heritage School
+announces the twelfth edition of Youthopia. A confluence of the words
+Youth and Utopia, it celebrates the potential of the new generation.
+The fest is known for scintillating performances which synchronize
+with the beats of our hearts and leave a soul-touching impact.
+Youthopia prides itself on being the most inclusive fest in the city.
+There are on-stage, offstage, on-field and off-field events. It is an
+amalgamation of vision,determination and excellence pumped up
+with youthful exuberance."/>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -75,20 +75,14 @@ kindled glow of the burning flame, it is more than just a fest.
                 android:padding="9dp"
                 android:gravity="center"
                 android:textColor="@color/white"
-                android:text="A fest teeming with huge multitudes of energy as the footfall
-skyrockets, we promise you that it is an experience that you
-will never forget. Alight with the amber colours of youth, it
-teaches us that if harnessed properly, we are a formidable
-force capable of shaping our own destiny. As we adorn the
-epitome of euphoria, we present to you, Youthopia 2021."/>
-
-
-
-
+                android:text="It facilitates fresh opinions,new events, sky-high adrenaline, and a
+lot of fun. It also reminds us of our capabilities and responsibilities
+as the next global citizens. Most of all, it is an unforgettable
+experience. As you lose yourself in the raw talent and collaboration,
+you will feel like you are rising with the Phoenix, too."/>
 
         </LinearLayout>
 
     </ScrollView>
-
 
 </RelativeLayout>

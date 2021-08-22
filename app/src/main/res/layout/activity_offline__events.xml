@@ -15,7 +15,7 @@
         android:textColor="@color/black"
         android:layout_alignParentBottom="true"
         android:id="@+id/back"
-        android:fontFamily="@font/bold"
-        android:textStyle="bold"/>
+        android:background="@color/purple_200"
+        android:fontFamily="@font/mregular" />
 
 </RelativeLayout>

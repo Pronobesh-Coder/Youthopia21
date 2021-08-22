@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationDrive">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/back"
+        android:fontFamily="@font/mbold"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_above="@id/back"
+        android:background="@drawable/main_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="DONATION DRIVE"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Through the years, Youthopia has been known for its fun and
+engaging events that have attracted the youth from schools all
+over the city. However, this year, our fest is much more than that. In
+these trying times, we stand up for social responsibilities and look
+at the big picture.We believe in leading by example, which led us
+to incorporate an awarding structure that no other fest has ever
+done before."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_height="212dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/so3" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Usually,fests end up spending a huge amount of money on
+vouchers for the awardees. However, we plan on donating this
+amount for a noble cause in the name of the school the awardees
+belong to. This year, Youthopia is all about motivating the
+participants to compete and perform for the greater good."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_height="212dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/so4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="9dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="We plan to accumulate all points earned by each school in all the events
+they have won in and donate the corresponding amount of money.\n\n
+The prospective amounts are as follows:\n\n
+Rs. 650 for the 1st position\n
+Rs. 500 for the 2nd position\n
+Rs. 400 for the 3rd position\n\n
+We believe the greatest euphoria comes from fostering someone else’s
+happiness. Let us swap those hungry bellies for satiated stomachs, those
+tear-filled eyes for smiles of joy and those heart-wrenching out cries of
+help for soul-soothing celebrations of equality. Let us reach the epitome
+of euphoria.We proudly present to you, Youthopia ’21 – Epitome of
+Euphoria, a fest with a difference.\n\n"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

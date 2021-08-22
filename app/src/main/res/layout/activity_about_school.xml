@@ -10,11 +10,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RETURN TO HOME"
+        android:text="BACK"
         android:textColor="@color/black"
         android:layout_alignParentBottom="true"
         android:id="@+id/back"
-        android:fontFamily="@font/bold"
+        android:fontFamily="@font/mbold"
         android:textStyle="bold"/>
 
     <ScrollView

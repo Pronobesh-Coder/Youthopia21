@@ -20,7 +20,7 @@ import java.util.TimerTask;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imgLogo;
-    private TextView txtYouth;
+    private TextView txtYouth, slogan;
     private Timer timer;
 
     @Override
@@ -32,10 +32,13 @@ changeStatusBarColor();
 
         imgLogo = findViewById(R.id.imageView);
         txtYouth = findViewById(R.id.text_youth);
+        slogan = findViewById(R.id.text_slogan);
 
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
         imgLogo.setAnimation(animation);
         txtYouth.setAnimation(animation);
+        slogan.setAnimation(animation);
+
 
         timer.schedule(new TimerTask() {
             @Override
@@ -55,4 +58,4 @@ changeStatusBarColor();
         }
     }
 
-    }
+}

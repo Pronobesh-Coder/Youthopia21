@@ -86,6 +86,7 @@ public class HomeScreen extends AppCompatActivity {
                                 break;
                             case R.id.nav_events:
                                 selectedFragment = new EventsFragment();
+
                                 break;
                             case R.id.nav_contact:
                                 selectedFragment = new ContactFragment();

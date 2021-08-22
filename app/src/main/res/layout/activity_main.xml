@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/spcbg"
     android:layout_height="match_parent"
-    android:background="@drawable/testbg"
     tools:context=".MainActivity">
-
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="373dp"
-        android:layout_height="447dp"
+        android:layout_width="333dp"
+        android:layout_height="379dp"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,17 +28,35 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/bold"
         android:gravity="center"
-        android:text="YOUTHOPIA '21\nEPITOME OF EUPHORIA"
+        android:text="Y O U T H O P I A   '21"
         android:textColor="@color/white"
         android:textSize="26dp"
         android:id="@+id/text_youth"
+        android:layout_gravity="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.73"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mbold"
+        android:gravity="center"
+        android:id="@+id/text_slogan"
+        android:text="EPITOME OF EUPHORIA"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.73"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

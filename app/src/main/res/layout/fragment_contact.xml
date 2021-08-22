@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/bold"
+            android:fontFamily="@font/mbold"
             android:text="C O N T A C T  U S"
             android:textColor="@color/white"
             android:textSize="16dp"
@@ -68,7 +68,7 @@
                 android:textSize="15dp"
                 android:text="N A M E"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/bold"
+                android:fontFamily="@font/mbold"
                 android:textColor="@color/white"/>
             <EditText
                 android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                 android:text="S C H O O L  N A M E"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/bold"
+                android:fontFamily="@font/mbold"
                 android:textColor="@color/white"/>
             <EditText
                 android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                 android:text="Y O U R  E M A I L"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/bold"
+                android:fontFamily="@font/mbold"
                 android:textColor="@color/white"/>
             <EditText
                 android:layout_width="match_parent"
@@ -131,7 +131,7 @@
                 android:text="C O N T A C T  N U M B E R"
                 android:layout_marginTop="9dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/bold"
+                android:fontFamily="@font/mbold"
                 android:textColor="@color/white"/>
             
             <LinearLayout
@@ -175,7 +175,7 @@
                 android:text="M E S S A G E"
                 android:layout_marginTop="23dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/bold"
+                android:fontFamily="@font/mbold"
                 android:textColor="@color/white"/>
 
             <EditText

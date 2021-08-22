@@ -2,7 +2,6 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent"
@@ -12,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/header">
-
 
         <ImageView
             android:id="@+id/imageView2"
@@ -37,7 +35,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/bold"
+            android:fontFamily="@font/mbold"
             android:text="H O M E"
             android:textColor="@color/white"
             android:textSize="16dp"
@@ -49,6 +47,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_centerVertical="true"
@@ -59,92 +58,156 @@
         android:layout_height="match_parent"
         android:layout_below="@id/header">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:padding="15dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="A B O U T\nT H E  H E R I T A G E  S C H O O L "
-                android:textSize="18dp"
-                android:layout_marginBottom="20dp"
-                android:textStyle="bold"
-                android:fontFamily="@font/bold"
-                android:textColor="@color/white"/>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/school_click"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:clickable="true">
-
-
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="130dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/schoollogo"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mbold"
+            android:textSize="24dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:padding="15dp"
-            android:orientation="vertical">
+            android:weightSum="2"
+           android:padding="15dp"
+            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="A B O U T\nY O U T H O P I A"
-                android:textSize="18dp"
-                android:layout_marginBottom="20dp"
-                android:textStyle="bold"
-                android:fontFamily="@font/bold"
-                android:textColor="@color/white"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/youth_click"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/black"
                 android:clickable="true">
 
-
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent"
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/logo" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:fontFamily="@font/mbold"
+                    android:text="YOUTHOPIA '21"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/school_click"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="142dp"
+                    android:layout_height="165dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/schoollogo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/mbold"
+                    android:text="The Heritage School"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-
-
         </LinearLayout>
 
-    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/mbold"
+                android:text="Donation Drive"
+                android:textSize="25dp" />
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="6dp"
+                android:layout_margin="16dp"
+                android:background="#1B0629"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageSlider"
+                    android:background="#1B0629"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    app:sliderAnimationDuration="3000"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="1000"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#954971"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="5"
+                    app:sliderStartAutoCycle="true" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VISIT"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/don_click"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                 android:fontFamily="@font/mbold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/icon_tiles"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
 </RelativeLayout>
