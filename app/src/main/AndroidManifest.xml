@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.youthopia21">
+    package="com.example.youthopia21" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,8 +10,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Youthopia21">
-        <activity android:name=".e9"></activity>
+        android:theme="@style/Theme.Youthopia21" >
+        <activity android:name=".g3" >
+        </activity>
+        <activity android:name=".g2" />
+        <activity android:name=".g1" />
+        <activity android:name=".e9" />
         <activity android:name=".e8" />
         <activity android:name=".e7" />
         <activity android:name=".e6" />
@@ -28,7 +32,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

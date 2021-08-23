@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment;
 public class EventsFragment extends Fragment {
 
 
-    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9;
+    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3;
 
 
     @Nullable
@@ -33,6 +33,9 @@ public class EventsFragment extends Fragment {
         le7 = v.findViewById(R.id.le_7);
         le8 = v.findViewById(R.id.le_8);
         le9 = v.findViewById(R.id.le_9);
+        ge1 = v.findViewById(R.id.ge1);
+        ge2 = v.findViewById(R.id.ge2);
+        ge3 = v.findViewById(R.id.ge3);
 
         le1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +97,28 @@ public class EventsFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),e9.class));
+
+            }
+        });
+
+        ge1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),g1.class));
+
+            }
+        });
+        ge2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),g2.class));
+
+            }
+        });
+        ge3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),g3.class));
 
             }
         });

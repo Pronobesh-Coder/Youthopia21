@@ -224,6 +224,7 @@
                     android:layout_width="wrap_content"
                     android:src="@drawable/csgo"
                     android:clickable="true"
+                    android:id="@+id/ge1"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_height="match_parent"/>
@@ -232,6 +233,7 @@
                     android:clickable="true"
                     android:src="@drawable/valorant"
                     android:padding="10dp"
+                    android:id="@+id/ge2"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_width="wrap_content"
@@ -252,6 +254,7 @@
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:src="@drawable/bgmi"
+                    android:id="@+id/ge3"
                     android:padding="10dp"
                     android:clickable="true"
                     android:adjustViewBounds="true"

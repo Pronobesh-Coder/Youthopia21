@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/eb2"
+    android:layout_height="match_parent"
+    tools:context=".g2">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="58dp"
+        android:id="@+id/close"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_cancel_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="240dp"
+        android:layout_height="155dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/mbold"
+        android:text="VALORANT\n"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:layout_height="wrap_content"
+        android:text="VALORANT is a 5v5 character-based tactical FPS where precise
+gunplay meets unique agent abilities. The Heritage School
+invites talented gamers and leaders to its first ever Valorant
+Event as many teams go head to head against each other in an
+action packed quest for glory and compete for the title."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:fontFamily="@font/mbold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
