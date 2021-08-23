@@ -11,9 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Youthopia21">
-        <activity android:name=".DonationDrive"></activity>
-        <activity android:name=".Offline_Events" />
-        <activity android:name=".Online_Events" />
+        <activity android:name=".e9"></activity>
+        <activity android:name=".e8" />
+        <activity android:name=".e7" />
+        <activity android:name=".e6" />
+        <activity android:name=".e5" />
+        <activity android:name=".e4" />
+        <activity android:name=".e3" />
+        <activity android:name=".e2" />
+        <activity android:name=".e1" />
+        <activity android:name=".DonationDrive" />
         <activity android:name=".AboutYouthopia" />
         <activity android:name=".AboutSchool" />
         <activity

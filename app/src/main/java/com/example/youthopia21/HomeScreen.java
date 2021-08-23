@@ -40,10 +40,10 @@ public class HomeScreen extends AppCompatActivity {
         if(getIntent().getStringExtra("frgtoload")!= null){
             String x = getIntent().getStringExtra("frgtoload");
             if(x.equals("Event_Fragment")){
-               // Fragment fragment = new EventsFragment();
+               //Fragment fragment = new EventsFragment();
                 bottomNavigationView.setSelectedItemId(R.id.nav_events);
                 //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                 //       fragment).commit();
+                      // fragment).commit();
             }
 
         }
