@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment;
 public class EventsFragment extends Fragment {
 
 
-    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3,bs1,bs2,bs3,bs4;
+    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3,bs1,bs2,bs3,bs4,vs1,vs2,vs3,vs4,vs5,vs6,vs7,vs8,vs9,vs10,vs11,vs12,vs13,vs14,vs15,vs16,vs17;
 
 
     @Nullable
@@ -41,6 +41,23 @@ public class EventsFragment extends Fragment {
         bs2 = v.findViewById(R.id.bs2);
         bs3 = v.findViewById(R.id.bs3);
         bs4 = v.findViewById(R.id.bs4);
+        vs1 = v.findViewById(R.id.vs1);
+        vs2 = v.findViewById(R.id.vs2);
+        vs3 = v.findViewById(R.id.vs3);
+        vs4 = v.findViewById(R.id.vs4);
+        vs5 = v.findViewById(R.id.vs5);
+        vs6 = v.findViewById(R.id.vs6);
+        vs7 = v.findViewById(R.id.vs7);
+        vs8 = v.findViewById(R.id.vs8);
+        vs9 = v.findViewById(R.id.vs9);
+        vs10 = v.findViewById(R.id.vs10);
+        vs11 = v.findViewById(R.id.vs11);
+        vs12 = v.findViewById(R.id.vs12);
+        vs13 = v.findViewById(R.id.vs13);
+        vs14 = v.findViewById(R.id.vs14);
+        vs15 = v.findViewById(R.id.vs15);
+        vs16 = v.findViewById(R.id.vs16);
+        vs17 = v.findViewById(R.id.vs17);
 
         le1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -152,6 +169,127 @@ public class EventsFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),b4.class));
+            }
+        });
+
+        vs1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v1.class));
+
+            }
+        });
+        vs2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v2.class));
+
+            }
+        });
+        vs3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v3.class));
+
+            }
+        });
+        vs4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v4.class));
+
+            }
+        });
+        vs5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v5.class));
+
+            }
+        });
+        vs6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v6.class));
+
+            }
+        });
+        vs7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v7.class));
+
+            }
+        });
+        vs8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v8.class));
+
+            }
+        });
+
+        vs9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v9.class));
+
+            }
+        });
+        vs10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v10.class));
+
+            }
+        });
+        vs11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v11.class));
+
+            }
+        });
+        vs12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v12.class));
+
+            }
+        });
+        vs13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v13.class));
+
+            }
+        });
+        vs14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v14.class));
+
+            }
+        });
+        vs15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v15.class));
+
+            }
+        });
+        vs16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v16.class));
+
+            }
+        });
+        vs17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),v17.class));
+
             }
         });
 
