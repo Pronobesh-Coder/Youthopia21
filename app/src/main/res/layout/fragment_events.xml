@@ -286,6 +286,8 @@
                     android:layout_width="wrap_content"
                     android:src="@drawable/be1"
                     android:padding="10dp"
+                    android:clickable="true"
+                    android:id="@+id/bs1"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_height="match_parent"/>
@@ -293,6 +295,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/be2"
                     android:padding="10dp"
+                    android:id="@+id/bs2"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_width="wrap_content"
@@ -307,6 +310,7 @@
 
                 <ImageView
                     android:layout_weight="1"
+                    android:id="@+id/bs3"
                     android:layout_width="wrap_content"
                     android:src="@drawable/be3"
                     android:padding="10dp"
@@ -317,6 +321,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/be4"
                     android:padding="10dp"
+                    android:id="@+id/bs4"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_width="wrap_content"

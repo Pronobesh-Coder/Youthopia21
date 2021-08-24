@@ -17,13 +17,14 @@ import androidx.fragment.app.Fragment;
 public class EventsFragment extends Fragment {
 
 
-    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3;
+    ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3,bs1,bs2,bs3,bs4;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_events,container,false);
+
         le1 = v.findViewById(R.id.le_1);
         le2 = v.findViewById(R.id.le_2);
         le3 = v.findViewById(R.id.le_3);
@@ -36,6 +37,10 @@ public class EventsFragment extends Fragment {
         ge1 = v.findViewById(R.id.ge1);
         ge2 = v.findViewById(R.id.ge2);
         ge3 = v.findViewById(R.id.ge3);
+        bs1 = v.findViewById(R.id.bs1);
+        bs2 = v.findViewById(R.id.bs2);
+        bs3 = v.findViewById(R.id.bs3);
+        bs4 = v.findViewById(R.id.bs4);
 
         le1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -122,6 +127,34 @@ public class EventsFragment extends Fragment {
 
             }
         });
+
+        bs1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),b1.class));
+            }
+        });
+        bs2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),b2.class));
+            }
+        });
+
+        bs3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),b3.class));
+            }
+        });
+
+        bs4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),b4.class));
+            }
+        });
+
 
         return v;
     }
