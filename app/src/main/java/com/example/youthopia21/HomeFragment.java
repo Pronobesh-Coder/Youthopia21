@@ -21,7 +21,7 @@ import com.smarteist.autoimageslider.SliderView;
 public class HomeFragment extends Fragment {
 
 
-    private ConstraintLayout goToAboutSchool, goToAboutYouth;
+    private ConstraintLayout goToAboutSchool, goToAboutYouth, update;
     private TextView donaDrive;
 
     SliderView sliderView;
@@ -41,6 +41,7 @@ public class HomeFragment extends Fragment {
         goToAboutYouth = v.findViewById(R.id.youth_click);
         sliderView = v.findViewById(R.id.imageSlider);
         donaDrive = v.findViewById(R.id.don_click);
+        update = v.findViewById(R.id.updates_click);
 
 
         goToAboutSchool.setOnClickListener(new View.OnClickListener() {
@@ -54,6 +55,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), AboutYouthopia.class));
+            }
+        });
+
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), updated_page.class));
             }
         });
 

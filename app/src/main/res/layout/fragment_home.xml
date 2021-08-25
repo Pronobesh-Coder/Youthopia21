@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent"
@@ -53,25 +54,77 @@
         android:layout_centerVertical="true"
         android:padding="15dp"
         android:orientation="vertical"
-        android:weightSum="2"
+        android:weightSum="3"
         android:layout_marginTop="10dp"
         android:layout_height="match_parent"
         android:layout_below="@id/header">
 
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/updates_click"
+            android:background="@drawable/updatesitem"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mbold"
+                android:gravity="center"
+                android:text="DAY 1\nUPDATES"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mbold"
+                android:gravity="center"
+                android:text="Y\nO\nU\nT\nH\nO\nP\nI\nA"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mbold"
+                android:gravity="center"
+                android:text="2\n0\n2\n1"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ABOUT US"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:fontFamily="@font/mbold"
-            android:textSize="24dp"/>
+            android:gravity="center"
+            android:textSize="15dp"
+            android:fontFamily="@font/mbold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:weightSum="2"
-           android:padding="15dp"
+            android:padding="15dp"
             android:orientation="horizontal">
 
 
@@ -81,30 +134,18 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black"
                 android:clickable="true">
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/logo" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:fontFamily="@font/mbold"
-                    android:text="YOUTHOPIA '21"
-                    android:textStyle="bold"
-                    android:textSize="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -114,31 +155,19 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
                 android:clickable="true">
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="142dp"
-                    android:layout_height="165dp"
+                    android:id="@+id/imageView6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/schoollogo" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp"
-                    android:textSize="10dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/mbold"
-                    android:text="The Heritage School"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -153,14 +182,6 @@
             android:padding="10dp"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DONATION DRIVE"
-                android:gravity="center"
-                android:textSize="23dp"
-                android:fontFamily="@font/mbold"
-                android:layout_margin="13dp"/>
 
 
             <LinearLayout
@@ -205,12 +226,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="CHECK\nIT OUT !"
+                    android:text="DONATION\nDRIVE"
                     android:background="@color/black"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:fontFamily="@font/bold"
-                    android:textSize="20dp"
+                    android:fontFamily="@font/mbold"
+                    android:textSize="15dp"
                     android:padding="10dp"
                     android:id="@+id/don_click"/>
 
