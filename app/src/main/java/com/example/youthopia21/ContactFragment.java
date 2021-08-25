@@ -147,8 +147,8 @@ public class ContactFragment extends Fragment {
 
 
                     Intent emailIntent = new Intent(Intent.ACTION_SEND);
-                    emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"pronobesh.chatterjee@gmail.com"});
-                    emailIntent.putExtra(Intent.EXTRA_CC, new String[]{"pronobesh.chatterjee@theheritageschool.net.in"});
+                    emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"youthopia2021@theheritageschool.org","president.youthopia@theheritageschool.org"});
+                    emailIntent.putExtra(Intent.EXTRA_CC, new String[]{"techhead.youthopia@theheritageschool.org","pronobesh.chatterjee@theheritageschool.net.in"});
                     emailIntent.putExtra(Intent.EXTRA_SUBJECT, name);
                     emailIntent.putExtra(Intent.EXTRA_TEXT, message);
                     emailIntent.setType("message/rfc822");

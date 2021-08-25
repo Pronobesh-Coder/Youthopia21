@@ -53,211 +53,427 @@
         android:layout_width="match_parent"
         android:layout_centerVertical="true"
         android:padding="15dp"
+        android:id="@+id/scroll1"
         android:layout_marginTop="10dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/header">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="143dp"
-                android:layout_height="141dp"
-                android:layout_margin="10dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/yp5" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="M U S T A N G"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView11"
-                app:layout_constraintStart_toStartOf="@+id/imageView11"
-                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_margin="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/yp3" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="B A S K I N  R O B B I N S"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2"
-                app:srcCompat="@drawable/yp6" />
-
-            <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
-                app:srcCompat="@drawable/yp7" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="A P O L L O  T Y R E S"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView12"
-                app:layout_constraintStart_toStartOf="@+id/imageView12"
-                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="E V I A N"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView13"
-                app:layout_constraintStart_toStartOf="@+id/imageView13"
-                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
-
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4"
-                app:srcCompat="@drawable/yp4" />
-
-            <ImageView
-                android:id="@+id/imageView15"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"
-                app:srcCompat="@drawable/yp2" />
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="A Q U A   J A V A"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView14"
-                app:layout_constraintStart_toStartOf="@+id/imageView14"
-                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="P I Z Z A  H U T"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/imageView15"
-                app:layout_constraintTop_toBottomOf="@+id/imageView15" />
-
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView6"
-                app:srcCompat="@drawable/yp1" />
-
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="144dp"
-                android:layout_height="141dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7"
-                app:srcCompat="@drawable/yp8" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="D O M I N O S\n"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView16"
-                app:layout_constraintStart_toStartOf="@+id/imageView16"
-                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:fontFamily="@font/bold"
-                android:text="H  P\n"
-                android:textColor="@color/white"
+                android:text="TITLE SPONSOR"
+                android:layout_gravity="left"
                 android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView17"
-                app:layout_constraintStart_toStartOf="@+id/imageView17"
-                app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+                android:fontFamily="@font/mbold"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/title"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="vCreaTek"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASSOCIATE SPONSOR"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/asso"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dishari Academic Trust"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TECHNICAL SPONSOR"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/technical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="HostingSpell"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHARITY SPONSOR"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/charity"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kellogg's"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GIFTING SPONSOR"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="United Group"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T-SHIRT SPONSOR"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/tshirt"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Success"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVENT SPONSORS"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/mbold"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_margin="3dp"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic1"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center"
+                            android:src="@drawable/itforum" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="IT FORUM"
+                            android:layout_marginTop="7dp"
+                            android:textSize="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic1"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/be" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Baheti Exports Pvt Ltd."
+                            android:textSize="10dp"
+                            android:layout_marginTop="7dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic2"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/tyashu" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TYAASHU"
+                            android:layout_marginTop="7dp"
+                            android:textSize="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic3"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/maniram" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Maniram Exports Pvt Ltd."
+                            android:textSize="10dp"
+                            android:layout_marginTop="7dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic4"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic5"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/leoe" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="LEOE Express Pvt Ltd."
+                            android:textSize="10dp"
+                            android:layout_marginTop="7dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic5"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic6"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/excelstb" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Excel Stock Broking Pvt Ltd."
+                            android:textSize="10dp"
+                            android:layout_marginTop="7dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic6"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic7"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/tanvir" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TANVIR INFRA PROJECTS LLP"
+                            android:layout_marginTop="7dp"
+                            android:textSize="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic7"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="110dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/pic8"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/fs" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Farsana Exports"
+                            android:layout_marginTop="7dp"
+                            android:textSize="10dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_below="@+id/pic8"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
 
+
+        </LinearLayout>
 
 
 
 
     </ScrollView>
+
 
 </RelativeLayout>
