@@ -224,7 +224,7 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/csgo"
+                    android:src="@drawable/csg"
                     android:clickable="true"
                     android:id="@+id/ge1"
                     android:adjustViewBounds="true"
@@ -233,7 +233,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:src="@drawable/valorant"
+                    android:src="@drawable/valo"
                     android:padding="10dp"
                     android:id="@+id/ge2"
                     android:adjustViewBounds="true"
@@ -255,7 +255,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:src="@drawable/bgmi"
+                    android:src="@drawable/bgmim"
                     android:id="@+id/ge3"
                     android:padding="10dp"
                     android:clickable="true"
@@ -287,7 +287,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/be1"
+                    android:src="@drawable/tnbi"
                     android:padding="10dp"
                     android:clickable="true"
                     android:id="@+id/bs1"
@@ -296,7 +296,7 @@
                     android:layout_height="match_parent"/>
                 <ImageView
                     android:layout_weight="1"
-                    android:src="@drawable/be2"
+                    android:src="@drawable/nifty"
                     android:padding="10dp"
                     android:id="@+id/bs2"
                     android:adjustViewBounds="true"
@@ -315,7 +315,7 @@
                     android:layout_weight="1"
                     android:id="@+id/bs3"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/be3"
+                    android:src="@drawable/synergy"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
