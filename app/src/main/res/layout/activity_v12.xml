@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/spacesplash"
     android:layout_height="match_parent"
+    android:background="@drawable/spacesplash"
     tools:context=".v12">
 
     <ImageView
+        android:id="@+id/close"
         android:layout_width="54dp"
         android:layout_height="58dp"
-        android:id="@+id/close"
-        android:clickable="true"
         android:layout_margin="10dp"
+        android:clickable="true"
         android:src="@drawable/ic_baseline_cancel_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,30 +31,49 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
         android:fontFamily="@font/mbold"
         android:text="FACE PAINTING\n"
         android:textSize="25dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:padding="10dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/mbold"
+        android:gravity="center"
+        android:padding="10dp"
         android:text="MASQUED is a fun event that is all about embodying your artistic
 creativity on a face. Being able to transform a face into something else is
 the ultimate form of artistry. MASQUED gives you a platform to use faces
 as a canvas and transfigure them into something beautiful, doesn’t that
 sound exciting? Are you ready to splash some colours on a few faces?"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        android:fontFamily="@font/mbold"
-        android:gravity="center"
-        android:textSize="20dp"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="109dp"
+        android:layout_height="54dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/tanvir" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mbold"
+        android:text="presents"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

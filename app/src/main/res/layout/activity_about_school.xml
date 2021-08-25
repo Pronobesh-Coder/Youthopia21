@@ -101,6 +101,19 @@
             android:text="Recognized as the Best Co-Educational School in West Bengal by Education World for six years in a row, The Heritage School has successfully built youngsters with a passion to explore, seek answers, and change the world."/>
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:padding="9dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="MESSAGE FROM THE DESK"/>
+
+
+
     </LinearLayout>
 
     </ScrollView>

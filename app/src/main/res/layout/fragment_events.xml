@@ -98,7 +98,7 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:id="@+id/le_2"
-                    android:src="@drawable/e2"
+                    android:src="@drawable/mi"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_width="wrap_content"
