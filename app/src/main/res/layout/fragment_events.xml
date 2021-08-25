@@ -68,6 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LIVE EVENTS"
+            android:textColor="@color/white"
             android:textSize="20dp"
             android:background="@color/black"
             android:fontFamily="@font/mbold"
@@ -86,7 +87,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/e1"
+                    android:src="@drawable/rsixty"
                     android:padding="10dp"
                     android:clickable="true"
                     android:id="@+id/le_1"
@@ -113,7 +114,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:id="@+id/le_3"
-                    android:src="@drawable/e3"
+                    android:src="@drawable/inquiz"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -121,7 +122,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/e4"
+                    android:src="@drawable/wordsinwillow"
                     android:id="@+id/le_4"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -138,7 +139,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/e5"
+                    android:src="@drawable/ipl"
                     android:id="@+id/le_5"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
@@ -147,7 +148,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/e6"
+                    android:src="@drawable/fitns"
                     android:id="@+id/le_6"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -163,7 +164,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/e7"
+                    android:src="@drawable/inks"
                     android:id="@+id/le_7"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
@@ -172,7 +173,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/e8"
+                    android:src="@drawable/artpia"
                     android:id="@+id/le_8"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -188,7 +189,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/e9"
+                    android:src="@drawable/btlbrns"
                     android:padding="10dp"
                     android:id="@+id/le_9"
                     android:adjustViewBounds="true"
@@ -203,6 +204,7 @@
                 android:layout_height="wrap_content"
                 android:text="GAMING EVENTS"
                 android:background="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:fontFamily="@font/mbold"
                 android:layout_gravity="center"
@@ -269,6 +271,7 @@
                 android:layout_height="wrap_content"
                 android:text="BUSINESS EVENTS"
                 android:textSize="20dp"
+                android:textColor="@color/white"
                 android:background="@color/black"
                 android:fontFamily="@font/mbold"
                 android:layout_gravity="center"
@@ -319,7 +322,7 @@
                     android:layout_height="match_parent"/>
                 <ImageView
                     android:layout_weight="1"
-                    android:src="@drawable/be4"
+                    android:src="@drawable/impsss"
                     android:padding="10dp"
                     android:id="@+id/bs4"
                     android:adjustViewBounds="true"
@@ -333,6 +336,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="VIDEO EVENTS"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:background="@color/black"
                 android:fontFamily="@font/mbold"
@@ -349,7 +353,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/ve1"
+                    android:src="@drawable/vogue"
                     android:clickable="true"
                     android:id="@+id/vs1"
                     android:padding="10dp"
@@ -359,7 +363,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/ve3"
+                    android:src="@drawable/punchline"
                     android:clickable="true"
                     android:id="@+id/vs2"
                     android:adjustViewBounds="true"
@@ -379,7 +383,7 @@
                     android:layout_width="wrap_content"
                     android:clickable="true"
                     android:id="@+id/vs3"
-                    android:src="@drawable/ve4"
+                    android:src="@drawable/chasecut"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -387,7 +391,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/ve5"
+                    android:src="@drawable/sqart"
                     android:clickable="true"
                     android:id="@+id/vs4"
                     android:adjustViewBounds="true"
@@ -405,7 +409,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/ve6"
+                    android:src="@drawable/gateau"
                     android:padding="10dp"
                     android:clickable="true"
                     android:id="@+id/vs5"
@@ -415,7 +419,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/ve10"
+                    android:src="@drawable/nritya"
                     android:clickable="true"
                     android:id="@+id/vs6"
                     android:adjustViewBounds="true"
@@ -435,7 +439,7 @@
                     android:layout_width="wrap_content"
                     android:clickable="true"
                     android:id="@+id/vs7"
-                    android:src="@drawable/ve11"
+                    android:src="@drawable/antaraga"
                     android:padding="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
@@ -443,7 +447,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/ve12"
+                    android:src="@drawable/arpeggio"
                     android:clickable="true"
                     android:id="@+id/vs8"
                     android:adjustViewBounds="true"
@@ -461,7 +465,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/ve17"
+                    android:src="@drawable/diem"
                     android:clickable="true"
                     android:id="@+id/vs9"
                     android:padding="10dp"
@@ -473,7 +477,7 @@
                     android:padding="10dp"
                     android:clickable="true"
                     android:id="@+id/vs10"
-                    android:src="@drawable/ve16"
+                    android:src="@drawable/verses"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_width="wrap_content"
@@ -490,7 +494,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/balter"
+                    android:src="@drawable/bltr"
                     android:padding="10dp"
                     android:clickable="true"
                     android:id="@+id/vs11"
@@ -500,7 +504,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/masqued"
+                    android:src="@drawable/masq"
                     android:clickable="true"
                     android:id="@+id/vs12"
                     android:adjustViewBounds="true"
@@ -519,7 +523,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/basketball"
+                    android:src="@drawable/aimhigh"
                     android:clickable="true"
                     android:id="@+id/vs13"
                     android:padding="10dp"
@@ -529,7 +533,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/football"
+                    android:src="@drawable/cuju"
                     android:adjustViewBounds="true"
                     android:clickable="true"
                     android:id="@+id/vs14"
@@ -548,7 +552,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/martialarts"
+                    android:src="@drawable/kiai"
                     android:clickable="true"
                     android:id="@+id/vs15"
                     android:padding="10dp"
@@ -558,7 +562,7 @@
                 <ImageView
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:src="@drawable/capturebeyond"
+                    android:src="@drawable/spiel"
                     android:clickable="true"
                     android:id="@+id/vs16"
                     android:adjustViewBounds="true"
@@ -585,7 +589,7 @@
                     android:padding="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/warofdj" />
+                    android:src="@drawable/onair" />
 
             </LinearLayout>
 
