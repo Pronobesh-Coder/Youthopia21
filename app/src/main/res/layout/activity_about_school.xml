@@ -113,6 +113,196 @@
             android:text="MESSAGE FROM THE DESK"/>
 
 
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/principal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="PRINCIPAL MA’AM\n\nYet another edition of Youthopia and Team Heritage 2021 is ready, undeterred by the
+uncertainties created by the pandemic. Youthopia 2021 will be hosted online for the second
+time, with the same grandeur. Moreover, there’s something very special about Year 2021. We
+are proud that we have the first ever female Youthopia President, Koyena Pal.
+As always, Youthopia 2021 is a student-led programme where Heritans have toiled for
+months, and their hard work will culminate into three days of pure magic!
+The objective of this delightful fest is to have young people from all over the world to
+participate, interact with each other, become friends, learn each other’s cultures, and respect
+the value system followed in their part of the world.
+I wish to thank the Principals of all participating schools for allowing their students to
+participate in Youthopia. My best wishes to students of Youthopia 2021 Committee – Ms.
+Koyena Pal, Suhani Chatterjee, Hriday Chhaochharia, Vandit Jain, Riddhi Khaitan, Tushar
+Goel, Veer Maheshwari and Vasu Sethi, Coordinating Teachers – Ms. Anjali Gupta, Ms. Puja
+Jain, Mr. Ajaz Ahmed Middiya, Mr. Arnab Chatterjee and Academic Coordinator (XI-
+XII)– Mr. Anil Kumar Jha.\nI wish the very best to all participating teams. I wish Youthopia 2021 all the very best.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="CHAIRMAN\n\n“Youthopia is about young people sharing and communicating with each other and building
+lasting bonds of friendship. In its twelfth year, Youthopia 2021 promises to be bigger and
+better! The last eleven years have catapulted Youthopia to being one of the best school fests
+in the city. It is our way of bringing together the talented youth on one platform.
+I take this opportunity to thank the Teacher Coordinators - Ms. Anjali Gupta, Ms. Puja Jain,
+Mr. Ajaz Ahmed Middiya, Mr. Arnab Chatterjee, Academic Coordinator (XI-XII) – Mr. Anil
+Kumar Jha and students of the Youthopia 2021 Committee – Ms. Koyena Pal, Suhani
+Chatterjee, Hriday Chhaochharia, Vandit Jain , Riddhi Khaitan, Tushar Goel, Veer
+Maheshwari and Vasu Sethi.\nThe understanding, love, and belief that our staff and students share with each other help us
+to produce leaders year after year. Emerging stronger and powerful during this pandemic, our
+Heritans have exemplified the saying by S. A. Sache, \'Hope rises like a phoenix from the
+ashes of shattered dreams.\'\nMy heartfelt thanks to the entire teaching and administrative staff for their support and help
+to make this mega event a grand success.\nI wish the students of all schools the very best. May the best school win.\n\n
+Vikram Swarup\n
+Chairman – School Managing Committee"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/headma"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="HEADMASTER SIR\n\nYouthopia, our school fest, has gained fame not only across our city, but has reached out to
+educational institutions nationally and internationally in its new online avatar. The fest brings
+together a host of school students on one platform to challenge each other over three days in a
+multitude of events.
+Youthopia’21 follows last year’s online platform and has an enthusiastic group of young Heritans
+at the helm, pushing its horizon beyond our national borders. The team has worked tirelessly
+over the last few months giving shape to what it is today.
+I take extreme pleasure to wish Koyena Pal, President, and her dynamic team all the very best
+for hosting Youthopia’21.\nDarryl C. Christensen,\nHeadmaster
+
+"/>
+
+
+        <ImageView
+            android:layout_width="309dp"
+            android:layout_height="247dp"
+            android:layout_gravity="center"
+            android:src="@drawable/headmi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="HEADMISTRESS MA'AM\n\n
+“We develop our character muscles by overcoming challenges and obstacles”
+-Stephen Covey.The students at The Heritage School believe in their dreams, and they know that
+Excellence is a way of life with regard to effort, hard work, perseverance and an
+indomitable spirit. They knew that it would not be easy, but they were also convinced
+that nothing was impossible if there was a committed and passionately self-driven
+Team who believed in strengthening and empowering each other.
+Best Wishes to Koyena Pal, President, Youthopia 2021 and her TEAM….
+Waiting for TEAM YOUTHOPIA 2021 to reach the ………Epitome of Euphoria."/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/commander"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="COMMANDER DEY SIR\n\n
+“I am indeed delighted to know that the Heritage School has planned to host the School fest Youthopia 2021 this year as well albeit in virtual mode. It gives me immense happiness to recollect that my association with Youthopia is since its inception and have observed its phenomenal
+growth over the years. In all fairness it would be appropriate to state that this fest is now the most sought after school fest in Kolkata . Hence all front line schools take pride in participating in this mega event .
+Need not to iterate that since almost 2 years the Covid -19 related pandemic has changed our lives drastically and in the midst of various challenges these events keep us cheerful and out of monotony. With this scenario despite experiencing many obstacles whole hearted efforts of the Youthopia committee speaks volume in true tradition of the Heritage culture. Not only that , I do not have an iota of doubt but will also watch with fascination the grand success of Youthopia 2021,
+Your dedication and commitment in fulfillment of your pursuit will ensure the mega event to attain much greater status and become “talk of the town” amongst the students community.
+Last but not the least I compliment the entire team and extend my best wishes for success of your endeavour.
+\n\n
+Cdr. S. Dey"/>
+
+       <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/anil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="ANIL SIR\n\n
+“Youthopia is one of the most talked about events in the city. It is a platform that
+provides students with an opportunity to showcase their talent and promotes amity
+among the schools. This fest is all about our young ones, semi-adults, who are all
+geared up to take up the challenges that await them in the world outside.
+It has been a rewarding experience working with these young adults so full of
+vigour, enthusiasm, optimism, daring and yet so innocent and juvenile. All the
+members worked tirelessly for months to organize and execute the events of the
+mega event.\nMy heartfelt thanks to our Management, Principal Ma’am, Teacher Coordinators,
+Administrative staffs and all the teachers for their help and support for the grand
+success of this mega event.\n
+I take extreme pleasure to wish Koyena Pal and her dynamic team all the very best
+for hosting Youthopia 2021.\n
+I wish Youthopia 2021 all the very best.\n
+Best Wishes\n
+Anil Jha\n
+Senior Coordinator\n
+Classes : XI and XII (ISC)
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="AJAZ SIR\n\nWith the unprecedented Covid-19 pandemic. Youthopia 21 comes online again this year to celebrate continuity.
+I am happy and glad that I have recieved the opportunity to be the Teacher-In-charge and be a part of this grand and most awaited event, this event proves that although the event is online the enthusiasm seen in the participants is no less than the previous years, my good wishes to the entire team of Youthopia 2021 and All participants of this event.
+Thank you for making this event worthy."/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="ANJALI MA'AM\n\nIt is a privilege to coordinate a mega fest like Youthopia. I've been observing the students very closely and marveling at their confidence. The teachers get to learn a thing or two about business and finance from these teenagers. I wish and pray that Youthopia 2021 is a grand success like it has been in the past years.Best of luck to all participating teams.\nANJALI GUPTA\nTeacher coordinator\nYouthopia  2021"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="9dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="PUJA MA'AM\n\n“YOUTHOPIA”- The Phoenix Rises Again. With the ongoing pandemic, Youthopia 2021 promises to be different from the previous editions as all of us collectively stand up for social responsibility. Having a girl President for the first time has made a definite difference, as Youthopia'21 promises not just to create online magic with vibrant and energetic performances but make a meaningful impact on society at large. This mega fest aims to foster student networking which, in the long run, will help each one of them in professional and personal arena and will motivate brilliant minds to compete for the benefit of society at large. More importantly, it aims to foster a sense of empathy and start a youth wave of reaching out to those who need help. I feel privileged to be associated with this mega fest; working with young minds has been a learning experience for me. I wish Youthopia 2021 all the best!\nPuja Jain
+\nTeacher Coordinator- Youthopia 2021\n\n"/>
+
 
     </LinearLayout>
 
