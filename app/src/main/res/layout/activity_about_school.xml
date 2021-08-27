@@ -91,6 +91,13 @@
             android:text="Our school has a living, breathing atmosphere of conceptual learning and teamwork. It truly believes in its motto Atma Deepo Bhava (Be your own light). Every part of the school reflects its students' versatile minds - from the student-made artwork on pillars, the active sports fields, the framed paintings on walls, and the music and dances which often reverberate through the campus. Our school values integrity and compassion as much as it values knowledge and intelligence, and imparts collective education of the mind, body and soul."/>
 
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/sl2"/>
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,6 +107,11 @@
             android:textColor="@color/white"
             android:text="Recognized as the Best Co-Educational School in West Bengal by Education World for six years in a row, The Heritage School has successfully built youngsters with a passion to explore, seek answers, and change the world."/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/sl1"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -142,6 +154,13 @@ Goel, Veer Maheshwari and Vasu Sethi, Coordinating Teachers – Ms. Anjali Gupta
 Jain, Mr. Ajaz Ahmed Middiya, Mr. Arnab Chatterjee and Academic Coordinator (XI-
 XII)– Mr. Anil Kumar Jha.\nI wish the very best to all participating teams. I wish Youthopia 2021 all the very best.
 "/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chairman"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -233,8 +252,7 @@ growth over the years. In all fairness it would be appropriate to state that thi
 Need not to iterate that since almost 2 years the Covid -19 related pandemic has changed our lives drastically and in the midst of various challenges these events keep us cheerful and out of monotony. With this scenario despite experiencing many obstacles whole hearted efforts of the Youthopia committee speaks volume in true tradition of the Heritage culture. Not only that , I do not have an iota of doubt but will also watch with fascination the grand success of Youthopia 2021,
 Your dedication and commitment in fulfillment of your pursuit will ensure the mega event to attain much greater status and become “talk of the town” amongst the students community.
 Last but not the least I compliment the entire team and extend my best wishes for success of your endeavour.
-\n\n
-Cdr. S. Dey"/>
+\n\nCdr. S. Dey"/>
 
        <ImageView
             android:layout_width="200dp"
