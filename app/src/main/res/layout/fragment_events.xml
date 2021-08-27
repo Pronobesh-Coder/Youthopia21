@@ -113,9 +113,9 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:id="@+id/le_3"
-                    android:src="@drawable/inquiz"
+                    android:src="@drawable/btlbrns"
                     android:padding="10dp"
+                    android:id="@+id/le_9"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_height="match_parent"/>
@@ -189,9 +189,9 @@
                 <ImageView
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
-                    android:src="@drawable/btlbrns"
+                    android:id="@+id/le_3"
+                    android:src="@drawable/inquiz"
                     android:padding="10dp"
-                    android:id="@+id/le_9"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
                     android:layout_height="match_parent"/>

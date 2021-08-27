@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mbold"
                 android:gravity="center"
-                android:text=""
+                android:text="loading..."
                 android:textSize="15dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

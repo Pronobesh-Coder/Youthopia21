@@ -171,13 +171,36 @@
                 android:layout_gravity="left"
                 android:textSize="15dp"
                 android:fontFamily="@font/mbold"/>
-            <ImageView
-                android:layout_width="350dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="5dp"
-                android:layout_gravity="center" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_margin="10dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/tologo" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bologo" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/lologo" />
+
+
+
+
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -214,255 +237,213 @@
                 android:textSize="15dp"
                 android:fontFamily="@font/mbold"/>
 
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_margin="3dp"
-                android:layout_height="200dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
+                    android:layout_height="150dp"
+                    android:weightSum="3"
+                    android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_gravity="center"
-                        android:layout_height="150dp">
-
                         <ImageView
-                            android:id="@+id/pic1"
-                            android:layout_width="match_parent"
+                            android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"
                             android:layout_gravity="center"
                             android:layout_marginEnd="2dp"
                             android:layout_marginRight="2dp"
                             android:gravity="center"
                             android:src="@drawable/itforum" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="IT FORUM"
-                            android:layout_marginTop="7dp"
-                            android:textSize="10dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic1"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic2"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/be" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Baheti Exports Pvt Ltd."
-                            android:textSize="10dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic2"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center"
+                        android:src="@drawable/be" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
                         android:layout_gravity="center"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
                         android:layout_margin="5dp"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic3"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/tyashu" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="TYAASHU"
-                            android:layout_marginTop="7dp"
-                            android:textSize="10dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic3"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic4"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/maniram" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Maniram Exports Pvt Ltd."
-                            android:textSize="10dp"
-                            android:layout_marginTop="7dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic4"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_gravity="center"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic5"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/leoe" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="LEOE Express Pvt Ltd."
-                            android:textSize="10dp"
-                            android:layout_marginTop="7dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic5"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic6"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/excelstb" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Excel Stock Broking Pvt Ltd."
-                            android:textSize="10dp"
-                            android:layout_marginTop="7dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic6"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic7"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/tanvir" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="TANVIR INFRA PROJECTS LLP"
-                            android:layout_marginTop="7dp"
-                            android:textSize="10dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic7"/>
-
-                    </RelativeLayout>
-                    <RelativeLayout
-                        android:layout_width="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_gravity="center"
-                        android:layout_height="150dp">
-
-                        <ImageView
-                            android:id="@+id/pic8"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/fs" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Farsana Exports"
-                            android:layout_marginTop="7dp"
-                            android:textSize="10dp"
-                            android:foregroundGravity="center"
-                            android:gravity="center"
-                            android:textColor="@color/white"
-                            android:layout_below="@+id/pic8"/>
-
-                    </RelativeLayout>
+                        android:gravity="center"
+                        android:src="@drawable/tyashu" />
 
                 </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3"
+                android:orientation="horizontal">
 
-            </HorizontalScrollView>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="IT FORUM"/>
 
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Baheti Exports Pvt Ltd"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="TYAASHU"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="150dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:src="@drawable/maniram" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:src="@drawable/leoe" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:src="@drawable/excelstb" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Maniram Exports Pvt Ltd"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="LEOE Express Pvt Ltd"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Excel Stock Broking Pvt Ltd"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="150dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginEnd="2dp"
+                android:layout_margin="5dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:src="@drawable/tanvir" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:src="@drawable/fs" />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TANVIR INFRA PROJECTS LLP\n"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Farsana Exports\n"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
-
-
-
     </ScrollView>
-
 
 </RelativeLayout>

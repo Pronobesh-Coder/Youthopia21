@@ -317,7 +317,7 @@ Thank you for making this event worthy."/>
             android:gravity="left"
             android:textColor="@color/white"
             android:text="PUJA MA'AM\n\n“YOUTHOPIA”- The Phoenix Rises Again. With the ongoing pandemic, Youthopia 2021 promises to be different from the previous editions as all of us collectively stand up for social responsibility. Having a girl President for the first time has made a definite difference, as Youthopia'21 promises not just to create online magic with vibrant and energetic performances but make a meaningful impact on society at large. This mega fest aims to foster student networking which, in the long run, will help each one of them in professional and personal arena and will motivate brilliant minds to compete for the benefit of society at large. More importantly, it aims to foster a sense of empathy and start a youth wave of reaching out to those who need help. I feel privileged to be associated with this mega fest; working with young minds has been a learning experience for me. I wish Youthopia 2021 all the best!\nPuja Jain
-\nTeacher Coordinator- Youthopia 2021\n\n"/>
+\nTeacher Coordinator- Youthopia 2021\n"/>
 
         <TextView
             android:layout_width="match_parent"
