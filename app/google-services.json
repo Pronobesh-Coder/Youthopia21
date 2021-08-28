@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "728837909129",
-    "project_id": "youthopia-21-f1661",
-    "storage_bucket": "youthopia-21-f1661.appspot.com"
+    "project_number": "959718501048",
+    "project_id": "youthopia--21",
+    "storage_bucket": "youthopia--21.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:728837909129:android:9081a8dfb81ab2073c7458",
+        "mobilesdk_app_id": "1:959718501048:android:38be22d2852827177fe24d",
         "android_client_info": {
-          "package_name": "com.example.youthopia21"
+          "package_name": "com.ths.youthopia21"
         }
       },
       "oauth_client": [
         {
-          "client_id": "728837909129-itmkr51cs4rmtsokslc9p756j1asrl1i.apps.googleusercontent.com",
+          "client_id": "959718501048-gvppvo9p9mku5qg8sgnfhcoo3iv4vc4h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCYhDyXP08-3Thc73jegALgCT0lVxa8G6w"
+          "current_key": "AIzaSyAZAxJPNngBh8dQDJm9YOjvbtPpKC8RYV0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "728837909129-itmkr51cs4rmtsokslc9p756j1asrl1i.apps.googleusercontent.com",
+              "client_id": "959718501048-gvppvo9p9mku5qg8sgnfhcoo3iv4vc4h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

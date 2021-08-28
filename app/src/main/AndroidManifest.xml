@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.youthopia21">
+    package="com.ths.youthopia21">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:networkSecurityConfig="@xml/network_security_config"
@@ -12,48 +12,82 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Youthopia21">
-        <activity android:name=".updated_page"></activity>
-        <activity android:name=".v17" />
-        <activity android:name=".v16" />
-        <activity android:name=".v15" />
-        <activity android:name=".v14" />
-        <activity android:name=".v13" />
-        <activity android:name=".v12" />
-        <activity android:name=".v11" />
-        <activity android:name=".v10" />
-        <activity android:name=".v9" />
-        <activity android:name=".v8" />
-        <activity android:name=".v7" />
-        <activity android:name=".v6" />
-        <activity android:name=".v5" />
-        <activity android:name=".v4" />
-        <activity android:name=".v3" />
-        <activity android:name=".v2" />
-        <activity android:name=".v1" />
-        <activity android:name=".b4" />
-        <activity android:name=".b3" />
-        <activity android:name=".b2" />
-        <activity android:name=".b1" />
-        <activity android:name=".g3" />
-        <activity android:name=".g2" />
-        <activity android:name=".g1" />
-        <activity android:name=".e9" />
-        <activity android:name=".e8" />
-        <activity android:name=".e7" />
-        <activity android:name=".e6" />
-        <activity android:name=".e5" />
-        <activity android:name=".e4" />
-        <activity android:name=".e3" />
-        <activity android:name=".e2" />
-        <activity android:name=".e1" />
-        <activity android:name=".DonationDrive" />
-        <activity android:name=".AboutYouthopia" />
-        <activity android:name=".AboutSchool" />
+        <activity android:name="com.ths.youthopia21.updated_page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v17"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v16"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v15"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v14"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v13"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v12"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v11"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v10"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v9"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v8"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v7"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v6"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v5"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v4"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.v1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.b4"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.b3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.b2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.b1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.g3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.g2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.g1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e9"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e8"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e7"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e6"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e5"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e4"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.e1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.ths.youthopia21.DonationDrive" />
+        <activity android:name="com.ths.youthopia21.AboutYouthopia" />
+        <activity android:name="com.ths.youthopia21.AboutSchool" />
         <activity
-            android:name=".HomeScreen"
+            android:name="com.ths.youthopia21.HomeScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.ths.youthopia21.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,7 +96,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".services.MyFirebaseInstanceService">
+            android:name="com.ths.youthopia21.services.MyFirebaseInstanceService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
