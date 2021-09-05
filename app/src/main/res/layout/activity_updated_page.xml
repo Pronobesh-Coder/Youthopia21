@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/spacesplash"
     tools:context=".updated_page">
-
 
     <ImageView
         android:id="@+id/close"
         android:layout_width="85dp"
         android:layout_height="79dp"
         android:clickable="true"
+        android:layout_gravity="right"
         android:padding="20dp"
         android:src="@drawable/ic_baseline_cancel_24"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +32,7 @@
         android:shadowDy="10"
         android:shadowRadius="10"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/close" />
@@ -39,11 +41,8 @@
         android:id="@+id/imageView7"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_gravity="center"
         android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/test_text"
         tools:srcCompat="@tools:sample/avatars" />
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

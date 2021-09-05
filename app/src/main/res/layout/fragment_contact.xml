@@ -204,7 +204,7 @@
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:layout_margin="15dp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:id="@+id/submit"
                     android:text="SUBMIT"
                     android:background="@drawable/icon_tiles"
@@ -218,7 +218,7 @@
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:layout_margin="15dp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:id="@+id/clear"
                     android:text="CLEAR"
                     android:background="@drawable/icon_tiles"
@@ -226,11 +226,7 @@
                     android:fontFamily="@font/bold"
                     android:textStyle="bold"/>
 
-
-
             </LinearLayout>
-
-
 
         </LinearLayout>
 

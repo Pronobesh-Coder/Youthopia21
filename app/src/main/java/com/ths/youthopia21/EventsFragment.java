@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
@@ -16,6 +17,7 @@ public class EventsFragment extends Fragment {
 
     ImageView le1,le2,le3,le4,le5,le6,le7,le8,le9,ge1,ge2,ge3,bs1,bs2,bs3,bs4,vs1,vs2,vs3,vs4,vs5,vs6,vs7,vs8,vs9,vs10,vs11,vs12,vs13,vs14,vs15,vs16,vs17;
 
+    Button day1y,day2y,day3y;
 
     @Nullable
     @Override
@@ -55,6 +57,31 @@ public class EventsFragment extends Fragment {
         vs15 = v.findViewById(R.id.vs15);
         vs16 = v.findViewById(R.id.vs16);
         vs17 = v.findViewById(R.id.vs17);
+        day1y = v.findViewById(R.id.d1);
+        day2y = v.findViewById(R.id.d2);
+        day3y = v.findViewById(R.id.d3);
+
+
+
+        day1y.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),day1.class));
+            }
+        });
+        day2y.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),Day2.class));
+            }
+        });
+        day3y.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),day3.class));
+            }
+        });
+
 
         le1.setOnClickListener(new View.OnClickListener() {
             @Override

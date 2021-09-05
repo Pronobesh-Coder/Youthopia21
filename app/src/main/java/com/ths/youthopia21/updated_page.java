@@ -35,11 +35,9 @@ public class updated_page extends AppCompatActivity {
             }
             if(getIntent().getStringExtra("imgurl")!=null){
                 img_url = getIntent().getStringExtra("imgurl");
-                picasso.load(img_url).placeholder(R.drawable.loading).error(R.drawable.logo).into(imageView);
+                picasso.load(img_url).placeholder(R.drawable.logo).error(R.drawable.logo).into(imageView);
             }
         }
-
-
 
         close.setOnClickListener(new View.OnClickListener() {
             @Override

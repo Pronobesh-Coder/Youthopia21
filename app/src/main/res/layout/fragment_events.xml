@@ -64,16 +64,55 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LIVE EVENTS"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:background="@color/black"
-            android:fontFamily="@font/mbold"
-            android:layout_gravity="center"
-            android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAY 1"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/mbold"
+                    android:id="@+id/d1"
+                    android:layout_weight="1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="DAY 2"
+                    android:fontFamily="@font/mbold"
+                    android:layout_margin="5dp"
+                    android:id="@+id/d2"
+                    android:layout_weight="1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="DAY 3"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mbold"
+                    android:id="@+id/d3"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIVE EVENTS"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/black"
+                android:fontFamily="@font/mbold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
 
 
 
